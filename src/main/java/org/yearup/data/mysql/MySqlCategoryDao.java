@@ -32,7 +32,6 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao
             ResultSet results = pStatement.executeQuery())
         {
             while (results.next()){
-
                 int categoryId = results.getInt("category_id");
                 String categoryName = results.getString("name");
                 String description = results.getString("description");
@@ -57,7 +56,7 @@ public class MySqlCategoryDao extends MySqlDaoBase implements CategoryDao
                     WHERE category_id = ?;"""))
         {
             pStatement.setInt(1, categoryId);
-            try ( ResultSet results = pStatement.executeQuery())
+            ResultSet results = pStatement.executeQuery();
             {
                 if (results.next()) {
                     int id = results.getInt("category_id");
