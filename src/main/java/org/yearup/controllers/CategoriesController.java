@@ -61,15 +61,22 @@ public class CategoriesController {
     public Category getById(@PathVariable int id) {
         // get the category by id
         try {
+            List<Category> categories = categoryDao.getAllCategories();
 
-            Category category = categoryDao.getById(id) ;
-            System.out.println(category + " Category Dao");
-            if (category == null) {
-                throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-            } else {
-                return category;
+            for(Category cat: categories){
+                if(cat.getCategoryId() == id){
+                    return cat;
+                }
             }
 
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+           // Category category = categoryDao.getById(id);
+         //  System.out.println(category + " Category Dao");
+         //   if (category == null) {
+
+           // } else {
+           //     return category;
+          //  }
         } catch (Exception ex) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
