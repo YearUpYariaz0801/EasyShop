@@ -40,4 +40,11 @@ I chose this piece of code as interesting, because being able to get the product
 
 ![Interesting Piece of Code](https://github.com/user-attachments/assets/2115f635-b785-4e45-bf16-50da863056e0)
 
+# Point of Challenge
+
+I spent a great deal of time working through Postman to get my tests to pass, and correct any and all errors. It's a very helpful guide but a challenging transition from battling errors in IntelliJ. It showed me how in depth work in real world industry would be.
+
+# Future Goals In This Project
+
+In the future I would like to successfully create the shopping cart andits check out capabilities. I will continue to work on mastering the full completeion of this project for a fully functioning store.
 
