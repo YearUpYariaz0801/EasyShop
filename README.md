@@ -10,16 +10,14 @@ Instructor Matt Christenson
 EasyShop is a web application built using Spring Boot, providing a simple and intuitive platform for users to shop and manage products.
 
 # Project Overview
-Easy Shop is an already existing e-commerce application for technology and electronics. I was tasked with enhancing the application by fixing bugs that had been reported by users, implementing and editing existing methods, and adding new features.
+Easy Shop is an e-commerce application for technology and electronics that already exists. I was tasked with enhancing the application by fixing bugs that had been reported by users, implementing and editing existing methods, and adding new features.
 
 # Features
 User Authentication and Authorization: The application allows users to register, login, and logout, and provides role-based access control to ensure that users can only access features and data that they are authorized to access.
 
 Product management with CRUD operations: The application provides a comprehensive product management system, allowing administrators to create, read, update, and delete products, as well as manage product categories and inventory.
 
-(WIP) - Shopping cart functionality with order management
-
-(WIP) - Simple and intuitive user interface using HTML, CSS, and JavaScript
+Work In Progress - Shopping cart functionality with order management
 
 # Project Structure
 The project is structured into the following packages:
