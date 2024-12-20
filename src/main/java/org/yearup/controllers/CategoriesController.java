@@ -63,20 +63,16 @@ public class CategoriesController {
         try {
             List<Category> categories = categoryDao.getAllCategories();
 
-            for(Category cat: categories){
-                if(cat.getCategoryId() == id){
+            for (Category cat : categories) {
+                if (cat.getCategoryId() == id) {
                     return cat;
                 }
             }
 
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
-           // Category category = categoryDao.getById(id);
-         //  System.out.println(category + " Category Dao");
-         //   if (category == null) {
 
-           // } else {
-           //     return category;
-          //  }
+        }   catch( ResponseStatusException e) {
+            throw e;
         } catch (Exception ex) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Oops... our bad.");
         }
