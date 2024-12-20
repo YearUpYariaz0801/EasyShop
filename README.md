@@ -4,7 +4,7 @@ Year Up United Java Capstone 3
 
 Instructor Matt Christenson
 
-=====================================================================================
+===========================================================================
 
 # EasyShop
 EasyShop is a web application built using Spring Boot, providing a simple and intuitive platform for users to shop and manage products.
