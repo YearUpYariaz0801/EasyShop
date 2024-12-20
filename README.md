@@ -46,5 +46,5 @@ I spent a great deal of time working through Postman to get my tests to pass, an
 
 # Future Goals In This Project
 
-In the future I would like to successfully create the shopping cart andits check out capabilities. I will continue to work on mastering the full completeion of this project for a fully functioning store.
+In the future I would like to successfully create the shopping cart and its check out capabilities. I will continue to work on mastering the full completeion of this project for a fully functioning store.
 
