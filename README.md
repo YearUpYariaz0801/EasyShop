@@ -33,3 +33,11 @@ The project is structured into the following packages:
 - org.yearup.models: Model classes for representing data entities
  
 - org.yearup.security: Security-related classes for authentication and authorization
+
+# Interesting Piece of Code
+
+I chose this piece of code as interesting, because being able to get the products by ID allowed me to execute so many other commands/requests in other areas of the project. It was seemingly simple but more effective results.
+
+![Interesting Piece of Code](https://github.com/user-attachments/assets/2115f635-b785-4e45-bf16-50da863056e0)
+
+
