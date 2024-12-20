@@ -90,8 +90,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
 
         return products;
     }
-
-
+    
     @Override
     public Product getById(int productId)
     {
